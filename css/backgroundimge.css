@@ -1,0 +1,29 @@
+body{
+    background-image: url(.././images/backgroundtrees.jpg);
+    background-size: cover;
+
+}
+p{
+    border: 3px;
+    border-color: #4997db;
+    border-style: groove;
+   
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 50px;
+}
+#innercontent{
+    border: 2px;
+    border-style: dashed;
+    border-color: rgb(111, 24, 161);
+   margin-block: 50px;
+}
+#heading
+{
+    margin-right: 200px;
+    margin-top: 200px;
+    margin-left: 200px;
+    border-bottom: dashed;
+    border-color: #4d2ddd;
+    
+}

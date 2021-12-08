@@ -32,46 +32,43 @@ body
 }
 #contentcss
 {
+    
     color: lemonchiffon;
     margin-top: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 img{
-    margin-top: 30px;
-    margin-left: 30px;
+    margin-top: 20px;
+    margin-left: 70px;
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    
 }
 .boxmargin{
-    margin-top: 40px;
-    margin: px;
-    display: inline-block;
-    border-radius: 15px;
+    margin-top: 20px;
+    width: 200px;
+    height: 120px;
+    border-radius: 7%;
 }
 #boxone{
-    margin-left: 340px;
-     background-color: #575f4b;
-    width: 200px;
-    height: 150px;
-    float: left;
+         background-color: #575f4b;
+        float: left;
+        margin-left: 340px;
     }
 #boxtwo{
-     background-color: #575f4b;
-     width: 200px;
-    height: 150px;
-    margin-left: 22px;
+         background-color: #575f4b;
+         float: left;
+        margin-left: 20px;
     }
 #boxthree{
-    margin-right: 390px;
-     background-color: #575f4b;
-     width: 200px;
-    height: 150px;
-    float: right;
-    
+         background-color: #575f4b;
+        float: left; 
+        margin-left: 20px;
     }
+
 #textcss{
-    margin-top: 30px;
+    margin-top: 10px;
     text-align: center;
     font-weight: bolder;
     color: #4c8894;
@@ -80,11 +77,12 @@ img{
 .bottombar
 {
     background-color: #4d4a4a;
-    height: 140px;
-    width: 1500px;
+    margin-top: 60px;
+   height: 100px;
+    width: 1350px;
     text-align: center;
     padding-top: 23px;
     bottom: 0;
-    color: wheat;
-    margin-top: 20px;
+   position: relative;
+      color: wheat;
 }

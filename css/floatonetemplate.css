@@ -10,18 +10,14 @@ body
 #headercss{
    height: 50px;
     background-color: #fff;
-   
+   padding-top: 12px;
        }
     
 #navigationbar
 {
     width: 900px;
-   margin-right: 80px;
-     margin-left: 80px;
-     margin-top: 15px;
-     float: right;
-    
-}
+       float: right;
+    }
 #menuitem
 { 
     margin-bottom: 50px;
@@ -35,6 +31,7 @@ body
     color: lemonchiffon;
     margin-top: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
 }
 img{
    border-radius: 50%;
@@ -45,6 +42,7 @@ img{
 
 .boxestoalign
 {
+    align-items: center;
     margin-top: 30px;
         width: 280px;
     }
@@ -55,15 +53,15 @@ img{
     margin-left: 275px;
 }
 #designtwobox{
-    float: right;
+    float: left;
      background-color:#3EB489;
-     margin-right: 234px;
+     
     }
 #designthreebox
 {
     background-color: #9369a8;
 
-     float: right;
+     float: left;
 }
 #boxcontent{
 margin-top: 20px;

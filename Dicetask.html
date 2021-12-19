@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DICE</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div id="dicecode" class="diceone" >
+        <button type="button" value="Trow dice" onclick="rolldice()">Roll dice</button>
+       <span id="diceresult"></span>
+            <!-- <img src="./images/1.png" alt=""> -->
+    </div>
+    <script>
+        var diceno;
+        //diceno = Math.ceil(Math.random()*6);
+        var imageContainer = document.getElementById("diceresult");
+        
+            function rolldice(diceno)
+            {
+                return  Math.ceil(Math.random()*6);
+            }
+            var result=rolldice(diceno);
+            switch(result)
+            {
+                case 1: imageContainer.innerHTML='<img src="./images/1.png">';
+                break;
+                case 2: imageContainer.innerHTML='<img src="./images/2.png">';
+                break;
+                case 3: imageContainer.innerHTML='<img src="./images/3.png">';
+                break;
+                case 4: imageContainer.innerHTML='<img src="./images/4.png">';
+                break;
+                case 5: imageContainer.innerHTML='<img src="./images/5.png">';
+                break;
+                case 6: imageContainer.innerHTML='<img src="./images/6.png">';
+                break;
+
+            }
+
+    </script>
+</body>
+</html>

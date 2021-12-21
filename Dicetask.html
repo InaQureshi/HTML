@@ -20,11 +20,11 @@
         //diceno = Math.ceil(Math.random()*6);
         var imageContainer = document.getElementById("diceresult");
         
-            function rolldice(diceno)
-            {
-                return  Math.ceil(Math.random()*6);
-            }
-            var result=rolldice(diceno);
+        function rolldice()
+        {
+                
+            
+            var result=Math.ceil(Math.random()*6);
             switch(result)
             {
                 case 1: imageContainer.innerHTML='<img src="./images/1.png">';
@@ -41,7 +41,7 @@
                 break;
 
             }
-
+         }
     </script>
 </body>
 </html>
